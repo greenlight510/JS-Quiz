@@ -70,6 +70,8 @@ h1{
     background: linear-gradient(90deg, black, grey)
 }
 
+
+/*End HTML Style*/
 .e-f-container{
     width: 100%;
     display: flex;
@@ -104,6 +106,10 @@ input::placeholder{
      font-size: 3rem;
      color: yellow;
      text-align: center;
+ }
+
+ #sScoreBtn{
+     border: none;
  }
 
 
