@@ -56,7 +56,7 @@ body {
 #pBar {
     width: 25rem;
     height: 4rem;
-    border: 0.5rem yellow;
+    border: 1rem yellow;
     margin-top: 3rem;
     border-radius: 60px;
     overflow: hidden;
