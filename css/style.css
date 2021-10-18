@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 50%;
+
+}
+h1{
+    font-size: 8rem;
+    margin-bottom: 6rem;
+    color:yellow;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 75rem;
+    padding: 3rem;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.btn{
+    font-size: 3rem;
+    padding: 2.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: yellow;
+    background: linear-gradient(90deg, black, darkgrey)
+   
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: .1rem .4rem 0 yellow;
+    transition: transform 100ms;
+    transform: scale(1);
+}
+
+#topscore-btn {
+    background: linear-gradient(90deg, black, grey)
+}

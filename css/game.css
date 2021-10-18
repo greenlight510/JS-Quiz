@@ -1,0 +1,74 @@
+body {
+    color: white;
+}
+
+.c-container{
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius: 4px;
+    background: yellow;
+    font-size: 4rem;
+    min-width: 60rem;
+}
+
+.c-container:hover {
+    cursor: pointer;
+    box-shadow: .5rem 1rem 0 blue;
+    transform: scale(1.5);
+    transform: transform 100ms;
+}
+
+.c-prefix {
+    padding: 3rem 3.5rem;
+    color: blue;
+}
+
+.c-text {
+    padding: 2.5rem;
+    color: blue;
+    width: 100%;
+}
+
+.right {
+    background: liner-gradient(35deg, green, 0%);
+}
+
+.wrong {
+    background: liner-gradient(35deg, red, 0%);
+}
+
+/* Head Display */
+#hdisplay {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hdisplay-pfix {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.hdisplay-mtext {
+    text-align: center;
+}
+
+#pBar {
+    width: 25rem;
+    height: 4rem;
+    border: 0.5rem yellow;
+    margin-top: 3rem;
+    border-radius: 60px;
+    overflow: hidden;
+}
+
+#pBarFull {
+    height: 100%;
+    background: blue;
+    width: 0%;
+}
+@media screen and(max-width: auto) {
+    .c-container{
+        min-width: 50rem;
+    }
+}
