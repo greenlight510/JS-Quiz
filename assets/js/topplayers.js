@@ -1,4 +1,4 @@
-const hScoresList = document.querySelector("#hScoresList")
+const hScoresList = document.querySelector(".hScoresList")
 const hScores = JSON.parse(localStorage.getItem("hScores")) || []
 
 hScoresList.innerHTML =

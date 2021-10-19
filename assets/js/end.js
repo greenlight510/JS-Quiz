@@ -14,7 +14,7 @@ player.addEventListener('keyup', () => {
     sScoreBtn.disabled = !player.value
 })
 
-sHighScore = e => {
+sTopScore = e => {
     e.preventDefault()
 
     const score =  {
@@ -31,8 +31,8 @@ sHighScore = e => {
 
     hScores.splice(4)
 
-    localStorage.serItem('hScores', JSON.stringify(hScores))
+    localStorage.setItem('hScores', JSON.stringify(hScores))
 
-    window.location.assign('/')
+    window.location.assign('topplayers.html')
 
 }
