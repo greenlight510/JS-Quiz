@@ -1,0 +1,14 @@
+body{
+    color: yellow;
+}
+
+#hScoresList{
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.hScores{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    
+}
