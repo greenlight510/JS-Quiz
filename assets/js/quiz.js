@@ -66,7 +66,7 @@ getNewQuestion = () => {
     if(aQuestions.length === 0 || qCounter > M_QUESTIONS) {
         localStorage.setItem(`recentScore`, score)
 
-        return window.location.assign(`/end.html`)
+        return window.location.assign(`end.html`)
     }
 
     qCounter++
